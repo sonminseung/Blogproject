@@ -1,4 +1,5 @@
 import {useState} from "react";
+import "./style.css";
 
 function Loginfunction() {
     // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -16,7 +17,8 @@ function Loginfunction() {
         e.preventDefault()
     };
     return (
-        <div>
+        <div className="d-flex flex-column justify-content-center w-100 h-100">
+            <div className="d-flex flex-column justify-content-center align-items-center">
             <form onSubmit={onSubmit}>
             <div>
                 <label for="username">username</label>
@@ -38,6 +40,7 @@ function Loginfunction() {
                 <button>Login</button>
             </div>
             </form>
+        </div>
         </div>
     )
 }
