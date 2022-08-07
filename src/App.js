@@ -4,6 +4,7 @@ import Project from "./routes/Project";
 import Home from "./routes/Home";
 import Profile from "./routes/Profile";
 import Loginfunction from "./routes/login";
+import Register from "./routes/register";
 function App() {
     return (
         <div className="App">
@@ -21,6 +22,7 @@ function App() {
     <Route path="/Profile" element={<Profile/>}></Route>
 
                     <Route path="/login" element={<Loginfunction/>}></Route>
+                    <Route path="/register" element={<Register/>}> </Route>
 
 </Routes>
             </BrowserRouter>

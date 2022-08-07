@@ -20,6 +20,9 @@ function Home() {
             <div>
                 <h3 className="fw-light text-white m-0"><Link to="/login"style={{ textDecoration: 'none',color:"black" }}>Login</Link></h3>
             </div>
+                    <div>
+                        <h3 className="fw-light text-white m-0"><Link to="/register"style={{ textDecoration: 'none',color:"black" }}>Register</Link></h3>
+                    </div>
                 </div>
         </div>
         </div>

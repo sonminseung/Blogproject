@@ -25,17 +25,9 @@ function Loginfunction() {
         Setpassword(e.target.value)
     };
     const onSubmit=(e)=>{
-        e.preventDefault()
-        if(dbusername===username && dbpassword=== password);
-        {
-            history.replace("/")
-        }
-        else
-        {
-            catch(error){
-                window.alert(error);
-            }
-        }
+        e.preventDefault();
+        //if(dbusername===username && dbpassword=== password);
+
     };
     return (
         <div className="d-flex flex-column justify-content-center w-100 h-100" class="login_box">
