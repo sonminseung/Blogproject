@@ -50,7 +50,7 @@ h3 {
 }
 input{
     width: 50rem;
-    height: 5rem;
+    height: 3rem;
 }
 .login_button{
     text-align: center;
@@ -58,6 +58,14 @@ input{
 .Menu-container{
     padding-top: 8rem;
     text-align: center;
+}
+.register_button{
+    text-align: center;
+}
+
+.register_container{
+    text-align: center;
+
 }
 
 
